@@ -1,0 +1,47 @@
+/* css for room.js */
+  .rooms  .rooms-blog{
+      padding-bottom: 10px;
+      position: relative;
+      display: inline;
+      background: #f7f7f7;
+      height: 15px;
+    }
+  .rooms-photos  {
+    text-align:left;
+    width:150px;
+    height: 150px;
+    position: relative;
+  }
+
+  .room-title{
+    color:rgb(72, 72, 72);
+    font-weight: 800;
+    font-size: 15px;
+  }
+  .room-city{
+    color:#D4AF37;
+    font-size:15px;
+    font-weight: normal;
+  }
+  .room-price{
+    font-weight: normal;
+    font-size:15px;
+
+  }
+  .rooms-block .rooms-info .rooms-txt p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  /* photo */
+div.rooms-block {
+  text-align:center;
+  width: 60%;
+  margin-top:20px;
+  margin-left:-20px;
+}
+div.rooms_container {
+  padding-top:10px;
+  text-align: left;
+  weight:100%;
+}

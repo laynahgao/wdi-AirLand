@@ -1,0 +1,150 @@
+
+/*----------------------------------------------------------------------------------*/
+/*  Host Hearder
+/*-----------------------------------------------------------------------------------*/
+
+  #header {
+    background: url("./headerHost.jpg") repeat scroll center center / cover;
+    height: 70vh;
+    width: 100%;
+  }
+  .introduce{
+    background-color: white;
+  }
+  .introduce h2{
+    color:grey;
+    padding-top: 15px;  
+    padding-bottom: 30px;
+  }
+  .introduce a{
+    background-color:#F2C53D;
+    color: white;
+    padding: 10px 40px 10px 40px;
+  }
+  .number{
+    padding:12px;
+  }
+
+
+  #header .header-content {
+    height: 150vh;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .header-content h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 170px;
+    text-transform: uppercase;
+    color:grey;
+  }
+  
+  .header-content p {
+    font-size: 13px;
+    letter-spacing: 5px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .header-content .list-social li {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .header-content .list-social li i {
+    color: #fff;
+    font-size: 50px;
+  }
+  /* introduction */
+
+#host,  #host-blog {
+  height: auto;
+  width: 100%;
+  background:white;
+  padding-bottom: 30px;
+  position: relative;
+  padding-top: 35px;
+}
+
+p {
+  color:grey;
+  font-weight: bold;
+  font-size: 18px;
+  
+}
+#host-blog {
+  background: #fff;
+  padding-bottom: 30px;
+}
+
+#host .host-block {
+  display: inline-block;
+  height: auto;
+  width: 100%;
+}
+
+#host .host-block .host-info {
+  position: relative;
+}
+
+/* img {
+  width:10%;
+}  */
+.host-block .host-info .host-txt {
+  padding: 25px 0px;
+  position: relative;
+}
+
+.host-block .host-info .host-txt h4 a {
+  display: block;
+  font-size: 19px;
+  line-height: 24px;
+  margin: 0 0 13px 0;
+  font-weight: 500;
+  color: #292929;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+/* .host-block .host-info .host-txt h4 a:hover {
+  color: #b8a07e;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+} */
+
+.host-txt h5 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 20px;
+  line-height: 24px;
+}
+.host-txt h6 {
+  padding-top: 10px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+}
+.hostButton{
+  background-color:#F2C53D;
+  color:white;
+  padding: 9px 20px;
+  font-size: 16px;
+  margin-top: 12px;
+  margin-left: 15px;
+  position: relative;
+}
+
+

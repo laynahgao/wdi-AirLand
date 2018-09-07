@@ -1,0 +1,103 @@
+#room{
+    text-align: center;
+    padding:100px 200px;
+}
+.roomForm{
+    text-align: left;
+    color:black;
+    border: 1px solid #dce0e0;
+    border-radius: 5px;
+    display: block;
+    margin-top: 3em;
+}
+.roomHead{
+    background-color:#edefed;
+    width: 100%;
+    margin-top: 0;
+    padding: 8px 8px 8px 20px;
+}
+/* Room Photos */
+.roomPhoto{
+    text-align: center;
+    padding: 12px;   
+}
+.roomPhoto img{
+    width: 200px;
+    height: 200px;
+}
+
+.roomNotice{
+    text-align: center;
+    position: relative;
+    padding: 12px;
+}
+.roomDetail{
+    padding: 12px 20px 12px 20px;
+    color:#484848;
+    border-top: none;
+    position: relative;
+    margin: 0px;
+    border-top: 1px solid #dce0e0;
+}
+.romRow{
+    margin-bottom: 12px;
+}
+.roomLabel{
+    text-align: right;
+    padding-top:5px; 
+
+}
+
+.roomInput{
+    text-align: left;
+    color:#484848;
+    width: 100%;  
+    margin-top:5px; 
+}
+.roomInput input{
+    width: 100%;
+    position: relative;
+
+}
+
+.noticeDetail{
+    font-size: 10px;
+    /* display: block; */
+}
+/* Room required */
+.selectBox{
+    position: relative;
+    padding-top: 12px;
+    text-align: right;
+    padding-left: 75px;
+}
+.selectItem{
+    position: relative;
+    padding-left: 20px;
+
+}
+.selectList{
+    width: 100%;
+    
+}
+.checkBox{
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.checkItem{
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.roomButton{
+    background-color:#F2C53D;
+    color:white;
+    padding: 9px 20px;
+    font-size: 16px;
+    margin-top: 12px;
+    margin-left: 15px;
+    position: relative;
+}
+.country{
+    font-size: 14px;
+    weight:200;    
+}

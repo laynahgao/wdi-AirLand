@@ -1,0 +1,13 @@
+.loginButton{
+    color:#afafaf;
+    background-color: none;
+    border: none;
+    text-decoration: none;
+    outline: none;
+}
+.loginButton:active, .loginButton:focus {
+    outline: none;
+}
+.loginButton:hover{
+    color: #AD924C;
+}

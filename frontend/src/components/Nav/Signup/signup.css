@@ -1,0 +1,19 @@
+.signupButton{
+    color:#afafaf;
+    background-color: none;
+    border: none;
+    text-decoration: none;
+    outline: none;
+}
+.signupButton:active,.signupButton:focus {
+    outline: none;
+}
+.signupButton:hover{
+    color: #AD924C;
+}
+h4 {
+    font-size:14px;
+    color:#afafaf;
+    text-align: center;
+    cursor: default;
+}

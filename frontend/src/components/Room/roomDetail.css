@@ -1,0 +1,39 @@
+#roomDetail{
+padding-top:7em;
+padding-left: 90px;
+padding-right: 90px;
+position: relative;
+}
+.room_img{
+    position: relative;
+}
+.profilePhoto{
+    height: 320px;
+    width: 420px;
+}
+.detailTitle{
+    padding-top: 12px;
+    font-size: 20px;
+    color:rgb(72, 72, 72);
+    font-weight: 800;
+}
+.detailPrice{
+    padding-top: 10px;
+}
+.detailLabel{
+    font-size: 15px;
+    color:#D4AF37;
+    font-weight: 800;
+}
+.roomDescription{
+    font-size: 10px;
+
+}
+.detail-text{
+    padding-left:10px;
+}
+.detailContainer{
+    position: relative;
+    text-align: center;
+    weight:100%;
+}

@@ -1,0 +1,64 @@
+
+/*----------------------------------------------------------------------------------*/
+/*  Landing Hearder
+/*-----------------------------------------------------------------------------------*/
+
+#headerLand {
+    background: url("./headerLand.jpg") repeat scroll center center / cover;
+    height: 70vh;
+    width: 100%;
+  }
+  
+  
+  #headerLand .header-content {
+    height: 115vh;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .header-content h1 {
+    font-size: 40px;
+    font-weight: 700;
+    /* margin-bottom: 160px; */
+    text-transform: uppercase;
+    color:grey;
+    /* margin-top: -10px; */
+
+  }
+  
+  .header-content p {
+    font-size: 13px;
+    letter-spacing: 5px;
+    margin-top: -10px;
+    /* margin-bottom: 15px; */
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 500;
+    position: relative;
+  }
+  
+  .header-content .list-social li {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .header-content .list-social li i {
+    color: #fff;
+    font-size: 50px;
+  }
+  .exploreLink {
+    width: 20%;
+    text-align: center;
+    padding:10px;
+    position: relative;
+    background-color:white;
+    color: rgb(60, 60, 65);
+  }
+  .explore{
+    margin-bottom: 5em;   
+    margin-top: -7em;
+    position: relative;
+  }
