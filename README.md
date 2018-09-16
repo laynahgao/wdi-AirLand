@@ -1,6 +1,11 @@
 # wdi-AirLand
 <div name="introduction">
-	<h3>introduction:</h3>
+	<h3>Description:</h3>
+	<p>AirLand is a community marketplace which allows individuals to list, delete, edit,  and explore accommodations. Users can log in by Facebook and can edit and delete their account in AirLand. People can use PayPal to donate money to AirLand.</p>
+	<p>TECHNIQUE SKILLS:</p>
+	<p>Font-End: JavaScript, HTML, CSS, Bootstrap</p>
+	<p>Back-End: Python, Django, PostgreSQL</p>
+
 <br/>
 	<p>Landing Page:User can signup/signin by facebook account. User can click explore button to see all rooms list.</p>
 	 <img src="https://user-images.githubusercontent.com/36210254/45511373-b7e0d800-b751-11e8-9d62-fa0d71136976.png" width="420" height="200" name="landing"/>
