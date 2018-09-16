@@ -40,7 +40,7 @@
 	<p>Back-End: Python, Django, PostgreSQL</p>
 
 <br/>
-	<h3>Screenshot</h3>
+	<h2>Screenshot</h2>
 	<hr/>
 	<p>Landing Page:User can signup/signin by facebook account. User can click explore button to see all rooms list.</p>
 	 <img src="https://user-images.githubusercontent.com/36210254/45511373-b7e0d800-b751-11e8-9d62-fa0d71136976.png" width="420" height="200" name="landing"/>
