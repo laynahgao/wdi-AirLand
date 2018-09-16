@@ -13,7 +13,7 @@
 	<img src="https://user-images.githubusercontent.com/36210254/45511962-3db15300-b753-11e8-8ee8-ece5b5e5b291.png" width="200" height="400" name="hostForm"/> 
 	<p>Profile Page: After login, user can edit and delete their account in the profile page. User also can see their host home at the button of the Profile page. click the home block can link to host form to edite and delete the home information.</p>
 	<img src="https://user-images.githubusercontent.com/36210254/45512591-0479e280-b755-11e8-92c8-1a512b772ad0.png" width="420" height="200" name="profile" /> 
-	<p>About Page</p>
+	<p>About Page: People can donate money to Ariland</p>
 	<img src="https://user-images.githubusercontent.com/36210254/45512657-3e4ae900-b755-11e8-9812-f9cec1bf101c.png" width="400" height="120" name="about" /> 
 </div>
 
