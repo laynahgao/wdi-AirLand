@@ -3,7 +3,7 @@
 	<h3>Description:</h3>
 	<p>AirLand is a community marketplace which allows individuals to list, delete, edit,  and explore accommodations. Users can log in by Facebook and can edit and delete their account in AirLand. People can use PayPal to donate money to AirLand.</p>
 	<p>TECHNIQUE SKILLS:</p>
-	<p>Font-End: JavaScript, HTML, CSS, Bootstrap</p>
+	<p>Font-End: React, JavaScript, HTML, CSS, Bootstrap</p>
 	<p>Back-End: Python, Django, PostgreSQL</p>
 
 <br/>
