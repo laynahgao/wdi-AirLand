@@ -1,6 +1,5 @@
-# wdi-AirLand
 <div name="using">
-	<h3>First time setup:</h3>
+	<h2>First time setup:</h2>
 	<hr/>
 	<p>
 		1.Clone the repo:git clone https://github.com/laynahgao/wdi-AirLand.git
@@ -25,14 +24,15 @@
 	<br/>
 		11.$ python3 manage.py runserver
 	</p>
-	<h3>Start</h3>
+	<h2>Start</h2>
 	<hr/>
 	Start the app: npm start
 	<br/>
 	View in browser at: http://localhost:8000
 </div>
 <div name="introduction">
-	<h3>Description:</h3>
+	<h2>Description:</h2>
+	<hr/>
 	<p>AirLand is a community marketplace which allows individuals to list, delete, edit,  and explore accommodations. Users can log in by Facebook and can edit and delete their account in AirLand. People can use PayPal to donate money to AirLand.</p>
 	<p>TECHNIQUE SKILLS:</p>
 	<p>Font-End: React, JavaScript, HTML, CSS, Bootstrap</p>
