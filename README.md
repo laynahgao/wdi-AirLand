@@ -23,14 +23,12 @@
 </div>
 
 <div name="using">
-	<h3>Using dictionary:</h3>
+	<h3>First time setup:</h3>
 	<br/>
 	<p>
-		cd frontend
+		1. Clone the repo:git clone https://github.com/laynahgao/wdi-AirLand
 	<br/>
-		$ npm run start
-	<br/>
-		cd backend
+		2.Go into folder:cd backend
 	<br/>
 		$ pip3 install virtualenv
 	<br/>	
