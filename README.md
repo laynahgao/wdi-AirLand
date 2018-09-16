@@ -48,10 +48,10 @@
 	<br/>
 		11.$ python3 manage.py runserver
 	</p>
-	<h2>Start</h2>
+	<h3>Start</h3>
 	<hr/>
-	<p>Start the app: npm start</p>
+	Start the app: npm start
 	<br/>
-	<p>View in browser at: http://localhost:8000</p>
+	View in browser at: http://localhost:8000
 
 </div>
