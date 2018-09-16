@@ -26,9 +26,11 @@
 	</p>
 	<h2>Start</h2>
 	<hr/>
-	Start the app: npm start
+	<p>
+		Start the app: npm start
 	<br/>
 	View in browser at: http://localhost:8000
+	</p>
 </div>
 <div name="introduction">
 	<h2>Description:</h2>
