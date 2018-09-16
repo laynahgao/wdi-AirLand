@@ -27,16 +27,15 @@
 	<h2>Start</h2>
 	<hr/>
 	<p>
-		Start the app: npm start
+	1.Start the app: npm start
 	<br/>
-	View in browser at: http://localhost:8000
+	2.View in browser at: http://localhost:8000
 	</p>
 </div>
 <div name="introduction">
 	<h2>Description:</h2>
 	<hr/>
 	<p>AirLand is a community marketplace which allows individuals to list, delete, edit,  and explore accommodations. Users can log in by Facebook and can edit and delete their account in AirLand. People can use PayPal to donate money to AirLand.</p>
-	<p>TECHNIQUE SKILLS:</p>
 	<p>Font-End: React, JavaScript, HTML, CSS, Bootstrap</p>
 	<p>Back-End: Python, Django, PostgreSQL</p>
 
