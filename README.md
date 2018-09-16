@@ -19,11 +19,12 @@
 <div name="using">
 	<h3>Using dictionary:</h3>
 	<br/>
-	<p>cd frontend</p>
+	<p>
+		cd frontend
 	<br/>
 		$ npm run start
 	<br/>
-	<p>cd backend</p>
+		cd backend
 	<br/>
 		$ pip3 install virtualenv
 	<br/>	
@@ -39,10 +40,11 @@
 	<br/>
 		$ python3 manage.py runserver
 	<br/>
-	<p>Create your own database when you clone/download this project</p>
+		Notice:Create your own database when you clone/download this project
 	<br/>
 		$ createdb (dbname)
 	<br/>
 		$ python3 manage.py createsuperuser
+	</p>
 
 </div>
