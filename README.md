@@ -24,31 +24,34 @@
 
 <div name="using">
 	<h3>First time setup:</h3>
-	<br/>
+	<hr/>
 	<p>
-		1. Clone the repo:git clone https://github.com/laynahgao/wdi-AirLand
+		1.Clone the repo:git clone https://github.com/laynahgao/wdi-AirLand.git
 	<br/>
 		2.Go into folder:cd backend
 	<br/>
-		$ pip3 install virtualenv
+		3.$ pip3 install virtualenv
 	<br/>	
-		$ virtualenv .env -p python3
+		4.$ virtualenv .env -p python3
 	<br/>
-		$ source .env/bin/activate
+		5.$ source .env/bin/activate
 	<br/>
-		$ pip install Django==2.0.5
+		6.$ pip install Django==2.0.5
 	<br/>
-		$ pip install psycopg2
+		7.$ pip install psycopg2
 	<br/>
-		$ pip install psycopg2-binary
+		8.$ pip install psycopg2-binary
 	<br/>
-		$ python3 manage.py runserver
+		9.$ createdb (dbname)
 	<br/>
-		Notice:Create your own database when you clone/download this project
+		10.$ python3 manage.py createsuperuser
 	<br/>
-		$ createdb (dbname)
-	<br/>
-		$ python3 manage.py createsuperuser
+		11.$ python3 manage.py runserver
 	</p>
+	<h2>Start</h2>
+	<hr/>
+	<p>Start the app: npm start</p>
+	<br/>
+	<p>View in browser at: http://localhost:8000</p>
 
 </div>
