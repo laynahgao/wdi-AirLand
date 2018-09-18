@@ -1,12 +1,14 @@
 .around {
     padding-top:20px;
-    padding-left:40px;
+    padding-left:200px;
     margin-bottom:-90px;
     position: relative;
-
 }
 .around-text{
     color:black;
     font-size: 18px;
-    weight:600;
+}
+.landingRooms{
+    text-align: center;
+    position: relative;
 }

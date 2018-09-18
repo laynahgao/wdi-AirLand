@@ -123,7 +123,6 @@ nav ul li a {
   padding-left: 10px;
   margin: 0 0 25px 0;
   line-height: 14px;
-  text-transform: uppercase;
 }
 
 .form-control:focus {
@@ -144,11 +143,6 @@ nav ul li a {
 .hvr-shutter-in-horizontal::before {
   background: #333;
 }
-
-/* .hvr-shutter-in-horizontal:hover {
-  background: #b8a07e;
-} */
-
 .mb-30 {
   margin-bottom: 30px;
 }

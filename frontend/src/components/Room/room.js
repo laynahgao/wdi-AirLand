@@ -1,7 +1,5 @@
 import React from 'react';
 import './room.css';
-// import { Redirect, Link } from 'react-router-dom'
-// import RoomDetail from './roomDetail';
 
 
 class Room extends React.Component {  
@@ -9,8 +7,6 @@ class Room extends React.Component {
     handleClick = ()=>{
         let id = this.props.room.id
         return(
-        // <Link to="/roomdetail/:id"></Link>
-        // <Redirect to="/roomdetail"/>
         this.props.history.push('/roomdetail/'+id)
         )}
 
@@ -36,7 +32,6 @@ class Room extends React.Component {
         return(
             
         <div className="pointer" onClick={this.handleClick}>
-            {/* <div className="rooms-block"> */}
                 <div className="col-sm-3 rooms-block ">
                     <div className="rooms-photos">                                 
                         <img className="roomsPhoto"  src={photoUrl} alt="roomsPhoto" ></img>
@@ -45,7 +40,6 @@ class Room extends React.Component {
                         <p className="room-title">{this.props.room.room_name}</p>
                         <p className="room-city">{this.props.room.room_city}</p>
                         <p className="room-price">${this.props.room.room_price} Per Month</p>
-                    {/* </div> */}
                 </div>
             </div>
         </div>

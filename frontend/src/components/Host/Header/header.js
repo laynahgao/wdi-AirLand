@@ -15,26 +15,15 @@ class Header extends Component{
     event.preventDefault();
     let id = localStorage.getItem('userId');
     console.log(id);
-    // this.setState({redirect: !this.state.redirect})
     if(id){
       this.props.history.push('/roomForm')
     }else{
-      this.props.history.push('/')
+      alert('Please Login/Sign up to become a host')
     }
      
-    // if(id){
-    //   console.log ("pop");
-    //   return (
-    //   <div>
-    //    <Link to ="/roomForm"></Link>
-    //   </div>
-    //   )
-    // }
-
   }
 
   render() {
-    // {this.state.redirect?<Redirect to="/roomForm"/>:null}
   return (
 <div id="header" className="home">
 

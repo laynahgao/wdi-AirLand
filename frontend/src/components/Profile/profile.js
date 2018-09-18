@@ -87,11 +87,8 @@ class Profile extends React.Component {
     }
     // Profile Room Click
     handleClick = (room) =>{
-        // let room_id = this.state.room.id
         console.log (room.id)
         return(
-        // // <Link to="/roomdetail/:id"></Link>
-        // // <Redirect to="/roomdetail"/>
         this.props.history.push('profileroom/'+ room.id)
         )
     }
@@ -105,11 +102,6 @@ class Profile extends React.Component {
         this.setState({})
     })
     }
-
-    // deleteRoom = (room) => {
-    //     let rooms = this.state.room.filter(ele => ele.id !== room.id)
-    //     // this.set
-    // }
 
     render(){
 
@@ -196,14 +188,11 @@ class Profile extends React.Component {
 
                     </div>
             </form>
-            {/* room list  */}
-
-
-                <div className="profileRoom">
+                <div className="profileRoom ">
                     <div className="">
-                         <p>Hosted ROOMS</p>
+                         <p>Hosted rooms</p>
                     </div>  
-                    <div className="pointer">
+                    <div className="pointer proom-list container">
                          {hostRooms}
                     </div>
             </div>

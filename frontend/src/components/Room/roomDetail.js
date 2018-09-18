@@ -19,17 +19,6 @@ class RoomDetail extends React.Component {
         })
     }
 
-    // let room = this.state.room;
-    //     let photoUrl = room.room_picture;
-
-    //     if(photoUrl && photoUrl.includes('api/room')){
-    //         photoUrl = photoUrl.substring(0,photoUrl.indexOf('api')) + photoUrl.substring(photoUrl.indexOf('media'))
-    //         room.room_picture = photoUrl
-    //         this.setState({
-    //             room: room
-    //         })
-    //     }
-
 
     render(){
         let room = this.state.room;

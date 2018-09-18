@@ -24,7 +24,7 @@ class Rooms extends React.Component {
         })
         return(
             <div  id="rooms" className="paddsection">
-                <div className="container" >
+                <div className="container roomslist" >
                      {room}
 
                  </div>

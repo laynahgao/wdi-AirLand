@@ -1,11 +1,6 @@
 import React from 'react';
 import axios from 'axios';
 import './roomForm.css'
-// import { FormGroup } from 'react-bootstrap';
-// import { ControlLabel } from 'react-bootstrap';
-// import { FormControl } from 'react-bootstrap';
-// import { Checkbox } from 'react-bootstrap';
-// import { InputGroup } from 'react-bootstrap';
 import ImageUploader from 'react-images-upload';
 
 class RoomForm extends React.Component {
@@ -20,12 +15,10 @@ class RoomForm extends React.Component {
 
 handleTitle = (event) =>{
   let user = this.props.user;
-  // room.title = event.target.value
   this.setState({user: user})
 }
 
 handleChange = (event) =>{
-  // let user = this.props.user;
   this.setState({value: event.target.value})
 }
 
@@ -43,7 +36,6 @@ addRoom = (event) =>{
   let city = this.refs.city.value;
   let state = this.refs.state.value;
   let zip = this.refs.zip.value;
-  // let country = this.refs.country.value;
   let price = this.refs.price.value;
 
   console.log(id,price, title, description);
@@ -55,7 +47,6 @@ addRoom = (event) =>{
   bodyFormData.set('room_city', city)
   bodyFormData.set('room_state', state)
   bodyFormData.set('room_zip', zip)
-  // bodyFormData.set('room_country', country)
   bodyFormData.set('room_price', price)
   bodyFormData.set('room_picture', this.state.pictures[0])
 
@@ -65,7 +56,6 @@ addRoom = (event) =>{
   let photoUrl = res.data.room_picture.substring(0,res.data.room_picture.indexOf('api')) + res.data.room_picture.substring(res.data.room_picture.indexOf('media'))
   res.data.room_picture = photoUrl;
   this.setState({room: res.data})
-  // this.props.updateUser(res.data)
   console.log('addroom response', res.data);
 })
 }
@@ -160,140 +150,8 @@ addRoom = (event) =>{
       </div>
 
     )
-    }
-    // else{
-    //   return (
-    //     <div id="room" className="paddsection">
-    //       <h1>Please Signup/ Login before becoming a host.</h1>
-    //     </div>
-    //   )
-    // }
-    
+    }   
 }  
 }
 export default RoomForm
 
-
-{/* <div className="amenities row roomRow selectBox">
-              <FormGroup controlId="formControlsSelect">
-            <div className="selectLabel col-sm-5">
-              <ControlLabel>Place Type</ControlLabel>
-            </div>
-            <div className="row selectItem">
-              <FormControl value={this.state.value} onChange={this.handleChange} componentClass="select" placeholder="select" className="selectList">
-                <option value="apartment">Apartment</option>
-                <option value="house">House</option>
-                <option value="house">Secondary unit</option>
-                <option value="house">Unique space</option>
-              </FormControl>
-            </div>
-              </FormGroup>
-            </div>
-
-            <div className="amenities row roomRow selectBox ">
-              <FormGroup controlId="formControlsSelect">
-            <div className="roomLabel col-sm-3">
-              <ControlLabel>What kind of place do you have</ControlLabel>
-            </div>
-            <div className="row selectItem">
-              <FormControl componentClass="select" placeholder="select">
-                <option value="whole">Entire place</option>
-                <option value="private">Private Room</option>
-                <option value="share">Share Room</option>
-              </FormControl>
-            </div>
-              </FormGroup>
-            </div>
-
-            <div className="amenities row roomRow selectBox">
-              <FormGroup controlId="formControlsSelect">
-            <div className="roomLabel col-sm-3">
-              <ControlLabel>How many bathrooms?</ControlLabel>
-            </div>
-            <div className="row selectItem">
-              <FormControl componentClass="select" placeholder="select">
-                <option value="whole">1</option>
-                <option value="private">2</option>
-                <option value="share">3</option>
-              </FormControl>
-            </div>
-              </FormGroup>
-            </div>
-    <hr/> */}
-            {/* <div className="amenities row roomRow checkBox">
-            <div className="roomLabel col-sm-3">
-              <label className="formTitle">What amenities do you offer?</label>
-            </div>
-            <div className="row roomRow col-sm-9 checkItem">
-              <Checkbox  check readOnly >
-                Wifi
-              </Checkbox>
-              <Checkbox  check readOnly>
-                Heat
-              </Checkbox>
-              <Checkbox check readOnly>
-                Air conditioning
-              </Checkbox>
-              <Checkbox check readOnly>
-                Closet/drawers
-              </Checkbox>
-              <Checkbox check readOnly>
-                Essentials(Towels,bed sheeets,toilet paper and pillows)
-              </Checkbox>
-              <Checkbox check readOnly>
-                pets in the house
-              </Checkbox>
-              <Checkbox check readOnly>
-                private entrance
-              </Checkbox>
-            </div>
-            </div>
-
-            <div className="amenities row roomRow ">
-            <div className="roomLabel col-sm-3">
-              <label className="formTitle ">What spaces can guests use?</label>
-            </div>
-            <div className="col-sm-6 row checkItem " > 
-              <Checkbox check readOnly >
-                Pool
-              </Checkbox>
-              <Checkbox check readOnly>
-                Kitchen
-              </Checkbox>
-              <Checkbox check readOnly>
-                Laundry-washer
-              </Checkbox>
-              <Checkbox check readOnly>
-                Laundry-dryer
-              </Checkbox>
-              <Checkbox check readOnly>
-                Parking    
-              </Checkbox>
-              <Checkbox check readOnly>
-                Elevator
-              </Checkbox>
-              <Checkbox check readOnly>
-                Hot tub
-              </Checkbox>
-              <Checkbox check readOnly>
-                Gym
-              </Checkbox>
-            </div>
-            </div>
-    <hr/> */}
-    
-    // // updload img
-// componentDidMount = () => {
-//   let user = this.state.user;
-//   let photoUrl = user.picture;
-//   let id = user.profile_id;
-
-//   if(photoUrl && photoUrl.includes('api/room')){
-//       photoUrl = photoUrl.substring(0,photoUrl.indexOf('api')) + photoUrl.substring(photoUrl.indexOf('media'))
-//       user.picture = photoUrl
-//       this.setState({
-//           user: user
-//       })
-//   }
-
-// }

@@ -43,5 +43,8 @@ div.rooms-block {
 div.rooms_container {
   padding-top:10px;
   text-align: left;
-  weight:100%;
+}
+.roomslist{
+  padding-left: 150px;
+
 }

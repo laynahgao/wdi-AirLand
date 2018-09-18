@@ -62,3 +62,6 @@
     margin-top: -7em;
     position: relative;
   }
+  .logo{
+    float: left;
+  }
